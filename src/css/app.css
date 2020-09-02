@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #ccc;
+}
+h1{
+    background-color: #222;
+    color:#fff;
+    padding:1rem;
+    font-family: sans-serif;
+    text-align: center;
+    border-bottom:5px solid #000;
+}
+.container{
+    width:70%;
+    margin:10px auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.input__control{
+    width:100%;
+    padding:1rem 2rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    border-left: 2px solid  rgb(156, 156, 156);
+    margin:.5rem;
+    align-items: center;
+}
+.input__control input{
+    padding: .3rem;
+    text-align: center;
+    border:none;
+    background-color: #ccc;
+    font-size: 1.2rem;
+    outline: none;
+    width:60%;
+}
+.input__control select{
+    font-size: 1.2rem;
+    padding: .3rem;
+    background-color: #ccc;
+    outline: none;
+    border: none;
+    text-align: center;
+}
+.mini__container{
+    width:50%;
+    text-align: center;
+}
+.results{
+    list-style:none ;
+    width:100%;
+    padding:1rem;
+    display:flex;
+    justify-content: space-between;
+    background-color: #ddd;
+    border-left: 2px solid  rgb(156, 156, 156);
+    margin:.5rem;
+    align-items: center;
+}
+.results p  {
+    width:40%;
+    text-align: center;
+}
+.selected{
+    background-color: #222;
+    color:#ccc;
+}
+@media only screen and (max-width:1100px){
+    .container{
+        width:100%;
+    }
+}
